@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html { 
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0; 
+    border: 0; 
+}
+
+body { 
+    background:#F3E5D8; 
+}
+
+/* 
+
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; 
+
+  */
+
+
+.container-recipe { 
+    max-width: 800px;
+}
+
+
+.omelette-img { 
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.recipe { 
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.title-describe-omelette { 
+    color: #34302F;
+    font-family: "Young Serif", serif;
+    font-size: 2rem;
+}
+
+.describle-omellete { 
+  color: #73706E;
+  font-family: "Young Serif", serif;
+  font-size: 1.1rem;
+}
