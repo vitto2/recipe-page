@@ -1,0 +1,28 @@
+.card-preparation-time { 
+    font-size: 1.1rem;
+    background: #FFF7FC;
+    padding: 20px; 
+    margin-top: 70px;
+    border-radius: 10px;
+    color: #73706E;
+    
+}
+
+.preparation-title { 
+    color: #7E405B;
+}
+
+
+.list-preparation-time  { 
+    list-style: none;
+    
+}
+
+
+.list-preparation-time li::before { 
+    content: '\2022'; 
+    color: #7E405B;
+    display: inline-block;
+    width: 2rem;
+    margin-bottom: 10px;
+}
