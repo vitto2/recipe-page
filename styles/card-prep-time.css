@@ -1,21 +1,25 @@
 .card-preparation-time { 
-    font-size: 1.1rem;
     background: #FFF7FC;
-    padding: 30px; 
-    margin-top: 50px;
+    padding: 35px; 
+    margin-top: 40px;
     border-radius: 10px;
     color: #73706E;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     
 }
 
 .preparation-title { 
     color: #7E405B;
+    margin-left: -15px;
 }
 
 
-.list-preparation-time  { 
-    list-style: none;
-    
+.list-preparation   { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
 }
 
 
@@ -25,10 +29,15 @@
     display: inline-block;
     width: 2rem;
     margin-bottom: 10px;
+   
 }
 
-.card_list_preparation-Ingredients { 
-    margin-top: 25px;
+.list-preparation-time { 
+    margin-bottom: 10px;
+}
+
+.card_list_preparation-ingredients { 
     padding: 30px; 
     color: #73706E;
 }
+

@@ -58,12 +58,12 @@ body {
 }
 
 .describle-omellete { 
-  font-size: 1.1rem;
+    color: #73706E;
 }
 
-@media (max-width: 1333) { 
-    
-.container-recipe { 
-    max-width: 400px;
-}
+
+.section-banner-omellete { 
+    display: flex ;
+    flex-direction: column;
+    gap: 30px; 
 }
